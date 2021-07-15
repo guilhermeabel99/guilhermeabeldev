@@ -25,3 +25,42 @@
   padding-right: 50px;
   height: 100%;
 }
+
+.timelineContainer {
+  border-left: 2px solid white;
+  padding: 0 20px 0 20px;
+}
+
+.timelineInfo {
+  background-color: #505050;
+  padding: 10px 25px;
+  border-radius: 5px;
+  line-height: 1.7;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timelineInfo:before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 3px solid #ddd;
+  position: absolute;
+  top: 10px;
+  left: -28px;
+}
+
+.timelineInfo:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #505050 transparent transparent;
+  border-width: 8px;
+  position: absolute;
+  left: -16px;
+  top: 10px;
+}
