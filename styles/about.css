@@ -1,0 +1,27 @@
+#aboutme {
+  background-color: #141414;
+  display: flex;
+  flex-direction: row
+}
+
+.left__container {
+  flex: 50%;
+  background-color: #141414;
+  color: #fff;
+  margin-left: 100px;
+  padding-left: 50px;
+  margin-right: 25px;
+  height: 100%;
+}
+
+.right__container {
+  display: flex;
+  flex-direction: column;
+  flex: 50%;
+  background-color: #141414;
+  color: #fff;
+  margin-right: 100px;
+  margin-left: 25px;
+  padding-right: 50px;
+  height: 100%;
+}
