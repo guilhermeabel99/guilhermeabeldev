@@ -34,3 +34,25 @@
   font-size: 20px;
   font-weight: 450;
 }
+
+.socialIcon {
+  margin: 5px;
+  height: 28px;
+}
+
+.socialIcon:hover {
+  opacity: 0.5;
+  transition: all ease-in-out 0.3s;
+}
+
+@media screen and (max-width: 768px) {
+  .footerLeft {
+    padding-left: 0px;
+    margin-left: 50px;
+  }
+
+  .footerRight {
+    padding-right: 0px;
+    margin-right: 50px;
+  }
+}
