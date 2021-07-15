@@ -64,3 +64,91 @@
   left: -16px;
   top: 10px;
 }
+
+.timelineInfo h2 {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  font: normal;
+  font-weight: 450;
+  color: #87ceeb;
+}
+
+.timelineInfo h3 {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font: normal;
+  font-weight: 400;
+}
+
+.timelineInfo h4 {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font: normal;
+  font-weight: 300;
+}
+
+.timelineInfo p {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font: normal;
+  font-weight: 300;
+}
+
+.left__container h1 {
+  font-size: 3rem;
+  color: #87ceeb;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.left__container p {
+  font-size: 1.4rem;
+  font-family: "Roboto", sans-serif;
+  font: normal;
+  font-weight: 300;
+}
+
+.right__container h1 {
+  font-size: 3rem;
+  color: #87ceeb;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  color: #87ceeb;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+ul {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+  font: normal;
+  font-weight: lighter;
+}
+
+.about__img--container {
+  text-align: center;
+}
+
+#about__img {
+  height: 50%;
+  width: 50%;
+  filter: grayscale(90%);
+}
+
+#about__img:hover {
+  height: 50%;
+  width: 50%;
+  filter: grayscale(0%);
+  transition: ease 0.5s;
+}
