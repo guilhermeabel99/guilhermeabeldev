@@ -152,3 +152,45 @@ p {
   filter: grayscale(0%);
   transition: ease 0.5s;
 }
+
+.cardTechStack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.techStack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #505050;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  color: #66c6db;
+}
+
+.techStack h3 {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+}
+
+@media screen and (max-width: 768px) {
+  #aboutme {
+    flex-direction: column;
+  }
+
+  .left__container {
+    margin: 0px auto 0px auto;
+  }
+
+  .right__container {
+    margin: 0px auto 0px 50px;
+  }
+
+  .cardTechStack {
+    justify-content: center;
+    align-items: center;
+  }
+}
