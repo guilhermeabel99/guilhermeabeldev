@@ -10,6 +10,17 @@
   height: 100%;
 }
 
+.experienceContainer h1 {
+  font-size: 4rem;
+  margin-top: 10px;
+  background-color: #ff8177;
+  background-image: linear-gradient(-50deg, #2042a8 50%, #66c6db 100%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 
 .card {
   display: flex;
