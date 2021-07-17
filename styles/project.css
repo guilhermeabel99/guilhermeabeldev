@@ -21,10 +21,7 @@
   overflow: hidden;
 }
 
-.card:hover {
-  transform: scale(1.05);
-  transition: all ease-in-out 0.3s;
-}
+
 
 .cardTitle {
   color: #66c6db;
