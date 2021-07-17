@@ -22,16 +22,6 @@
   -moz-text-fill-color: transparent;
 }
 
-.cardContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  column-gap: 30px;
-  row-gap: 30px;
-  margin-top: 30px;
-}
-
 .card {
   display: flex;
   flex-direction: column;
