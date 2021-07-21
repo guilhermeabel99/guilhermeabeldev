@@ -1,6 +1,6 @@
 const menu = document.querySelector('[data-mobile-menu]');
 const menuLinks = document.querySelector('[data-navbar-menu]');
-
+// data attributes to handle js manipulation
 menu.addEventListener('click', function() {
   menu.classList.toggle('is-active');
   menuLinks.classList.toggle('active');
