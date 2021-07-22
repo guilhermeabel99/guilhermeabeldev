@@ -1,3 +1,4 @@
+( () => { 
 const menu = document.querySelector('[data-mobile-menu]');
 const menuLinks = document.querySelector('[data-navbar-menu]');
 // data attributes to handle js manipulation
@@ -52,3 +53,5 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+
+})()
