@@ -37,7 +37,7 @@ window.addEventListener("DOMContentLoaded", function() {
   });
 });
 
-// helper function for sending an AJAX request
+// helper function for sending an AJAX(  Asynchronous JavaScript and XML ) request
 
 function ajax(method, url, data, success, error) {
   var xhr = new XMLHttpRequest();
