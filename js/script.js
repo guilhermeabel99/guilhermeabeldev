@@ -1,4 +1,4 @@
-( () => { 
+( () => { // function anony
 const menu = document.querySelector('[data-mobile-menu]');
 const menuLinks = document.querySelector('[data-navbar-menu]');
 // data attributes to handle js manipulation
