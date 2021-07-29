@@ -54,4 +54,4 @@ function ajax(method, url, data, success, error) {
   xhr.send(data);
 }
 
-})()
+})() // => started function ()
